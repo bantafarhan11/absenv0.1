@@ -2,6 +2,8 @@ name: Absensi Otomatis
 
 on:
   schedule:
+    # Senin
+    - cron: '50 10 * * 1'  # Absen untuk kelas 10.45
     # Selasa
     - cron: '50 10 * * 2'  # Absen untuk kelas 10.45
     - cron: '05 14 * * 2'  # Absen untuk kelas 14.00
