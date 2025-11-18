@@ -3,23 +3,23 @@ name: Absensi Otomatis
 on:
   schedule:
     # Senin
-    - cron: '50 10 * * 1'  # Absen untuk kelas 10.45
+    - cron: '50 03 * * 1'  # Absen kelas 10.45 WIB (03:50 UTC)
     # Selasa
-    - cron: '50 10 * * 2'  # Absen untuk kelas 10.45
-    - cron: '05 14 * * 2'  # Absen untuk kelas 14.00
+    - cron: '50 03 * * 2'  # Absen kelas 10.45 WIB (03:50 UTC)
+    - cron: '05 07 * * 2'  # Absen kelas 14.00 WIB (07:05 UTC)
 
     # Rabu
-    - cron: '50 10 * * 3'  # Absen untuk kelas 10.45
-    - cron: '05 14 * * 3'  # Absen untuk kelas 14.00
-    - cron: '40 16 * * 3'  # Absen untuk kelas 16.35
+    - cron: '50 03 * * 3'  # Absen kelas 10.45 WIB (03:50 UTC)
+    - cron: '05 07 * * 3'  # Absen kelas 14.00 WIB (07:05 UTC)
+    - cron: '40 09 * * 3'  # Absen kelas 16.35 WIB (09:40 UTC)
 
     # Kamis
-    - cron: '05 08 * * 4'  # Absen untuk kelas 08.00
-    - cron: '00 15 * * 4'  # Absen untuk kelas 14.55
+    - cron: '05 01 * * 4'  # Absen kelas 08.00 WIB (01:05 UTC)
+    - cron: '00 08 * * 4'  # Absen kelas 14.55 WIB (08:00 UTC)
 
     # Jumat
-    - cron: '05 08 * * 5'  # Absen untuk kelas 08.00
-    - cron: '50 10 * * 5'  # Absen untuk kelas 10.45
+    - cron: '05 01 * * 5'  # Absen kelas 08.00 WIB (01:05 UTC)
+    - cron: '50 03 * * 5'  # Absen kelas 10.45 WIB (03:50 UTC)
 
   workflow_dispatch:
 jobs:
