@@ -6,7 +6,7 @@ on:
     - cron: '50 03 * * 1'  # Absen kelas 10.45 WIB (03:50 UTC)
     # Selasa
     - cron: '50 03 * * 2'  # Absen kelas 10.45 WIB (03:50 UTC)
-    - cron: '05 07 * * 2'  # Absen kelas 14.00 WIB (07:05 UTC)
+    - cron: '00 08 * * 2'  # Absen kelas 14.00 WIB (07:05 UTC)
 
     # Rabu
     - cron: '50 03 * * 3'  # Absen kelas 10.45 WIB (03:50 UTC)
