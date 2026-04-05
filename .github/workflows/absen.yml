@@ -2,24 +2,29 @@ name: Absensi Otomatis
 
 on:
   schedule:
-    # Selasa 10.45 WIB (Pengolahan Citra Digital)
-    - cron: '45 3 * * 2'
+   # Senin 08.00 WIB (Irwandi)
+    - cron: '0 1 * * 1'
 
-    # Rabu 14.00 WIB (Technopreneurship, Proyek Technopreneurship)
+    # Selasa 08.00 WIB (Dr. Ir. Kahlil)
+    - cron: '0 1 * * 2'
+
+    # Selasa 14.00 WIB (Dr. Khairun Saddami)
+    - cron: '0 7 * * 2'
+
+    # Rabu 14.00 WIB (Dr. Ir. Yunidar, Dr. Auliyaa Raaf)
     - cron: '0 7 * * 3'
 
-    # Rabu 16.35 WIB (Metodologi Penelitian)
-    - cron: '35 9 * * 3'
-
-    # Kamis 08.00 WIB (Pattern Recognition, Visi Komputer)
+    # Kamis 08.00 WIB (Rizka Ramadhana)
     - cron: '0 1 * * 4'
 
-    # Kamis 14.00 WIB (Visi Komputer, Internet of Things, Praktikum IoT)
+    # Kamis 14.00 WIB (Dr. Ir. Kahlil)
     - cron: '0 7 * * 4'
 
-    # Sabtu 14.00 WIB (Internet of Things, Praktikum IoT)
-    - cron: '0 7 * * 6'
+    # Jumat 14.00 WIB (Ir. Maya Fitria)
+    - cron: '0 7 * * 5'
 
+    # Jumat 16.35 WIB (Dr. Ir. Kahlil)
+    - cron: '35 9 * * 5'
   workflow_dispatch:
 
 jobs:
